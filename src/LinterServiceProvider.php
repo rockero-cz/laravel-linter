@@ -24,6 +24,6 @@ class LinterServiceProvider extends PackageServiceProvider
             ->mapWithKeys(fn ($file) => [$file->getPathname() => $this->app->basePath($file->getRelativePathname())])
             ->toArray();
 
-        $this->publishes($filesToPublish, 'config');
+        $this->publishes($filesToPublish, "{$this->package->shortName()}-config");
     }
 }

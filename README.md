@@ -16,7 +16,7 @@ composer require rockero-cz/laravel-linter
 You can publish config files with:
 
 ```bash
-php artisan vendor:publish --provider="Rockero\Linter\LinterServiceProvider" --tag="config"
+php artisan vendor:publish --tag="linter-config"
 ```
 
 ## List of commands
