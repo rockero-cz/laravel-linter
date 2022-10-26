@@ -1,0 +1,4 @@
+{
+	"preset": "Rockero\\Linter\\Preset",
+	"excluded": ["tests/"]
+}
